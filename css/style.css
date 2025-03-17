@@ -146,7 +146,7 @@ li {
         }
     .text-div-sm {
         width: 90%;
-        background: rgba(255, 255, 255, 0);
+        background: #69686881;
         backdrop-filter: blur(5px);
         border-radius: 1rem;
     }
