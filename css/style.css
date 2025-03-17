@@ -38,6 +38,7 @@ li {
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 0 !important;
+    text-align: justify;
 }
 
 
@@ -57,12 +58,51 @@ li {
     overflow-y: hidden;
 }
 
+.main-title {
+    position: absolute;
+    top: 9%;
+    left: 41%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.main-title h1{
+    width: 300px;
+}
+.main-title p{
+    width: 500px !important;
+}
+.imgs-edu{
+    display: flex;
+    gap: 3rem;
+    padding-top: 3rem;
+}
+.imgs-edu img{
+  width: 150px;
+}
+
 .text-div {
     padding: 0 2rem;
 }
 
 
 @media screen and (max-width: 1100px) {
+    .main-title {
+            position: relative;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
     * {
         color: rgb(231, 231, 231);
     }
