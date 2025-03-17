@@ -1,0 +1,109 @@
+* {
+    font-family: cursive;
+    color: rgb(48, 47, 47);
+}
+
+section {
+    height: auto;
+    overflow-x: hidden;
+    background: rgb(234, 244, 246);
+    background: linear-gradient(339deg, rgba(234, 244, 246, 1) 0%, rgba(177, 194, 186, 1) 49%);
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0 !important;
+
+}
+
+p,
+li {
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0 !important;
+}
+
+
+.cut-img {
+    width: 198%;
+    height: auto;
+    /* object-fit: fill; */
+    position: relative;
+    transform: rotate(36deg);
+    top: 28%;
+    left: -40%;
+    overflow-y: hidden;
+}
+
+.row {
+    height: 100dvh;
+    overflow-y: hidden;
+}
+
+.text-div {
+    padding: 0 2rem;
+}
+
+
+@media screen and (max-width: 1100px) {
+    * {
+        color: rgb(231, 231, 231);
+    }
+
+    section {
+        height: auto;
+        background: url(../images/1.png) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        overflow-y: auto !important;
+
+    }
+
+    .img-div {
+        display: none;
+
+    }
+
+    .text-div-sm {
+        width: 90%;
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(5px);
+        border-radius: 1rem;
+    }
+
+
+    /*     .text-div {
+        height: auto;
+        width: 80%;
+        position: absolute;
+        z-index: 666666;
+        overflow-y: auto;
+        background: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(5px);
+        border-radius: 1rem;
+    }
+ */
+}
