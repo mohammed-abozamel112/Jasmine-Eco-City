@@ -73,10 +73,12 @@ li {
 
 .main-title h1 {
     width: 300px;
+    color: #ffffff !important;
 }
 
 .main-title p {
     width: 500px !important;
+    color: #ffffff !important;
 }
 
 .imgs-edu {
@@ -141,9 +143,11 @@ li {
         justify-content: center;
         align-items: center;
     }
-        .main-title p {
-            width: 95% !important;
-        }
+
+    .main-title p {
+        width: 95% !important;
+    }
+
     .text-div-sm {
         width: 90%;
         background: #69686881;
